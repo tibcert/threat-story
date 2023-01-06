@@ -20,7 +20,62 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <style>
+  b.footnote {
+   text-decoration:none;
+   color:#51493c;
+
+   transition: all 2s ease;
+} 
+
+b.footnote span {
+    font-weight: 100;
+   font-size: 13px;
+   visibility: hidden;
+   position: absolute;
+    margin: 25px auto auto -99px;
+   padding:5px;
+   border-radius:4px; box-shadow: 5px 5px 8px rgb(61, 61, 61);
+   border:1px solid #DCA;
+   background-color: #fae9d4;
+   transition: all .2s ease;
+   line-height: 15px;
+}
+
+b.footnote:hover span {
+   z-index: 1;
+  visibility: visible;
+   transition: all .2s ease;
+}
+p b{font-weight: 100;}
+
+
+.card-link:after {
+  content: "\f107";
+  font-family: 'FontAwesome';
+  font-weight: 900;
+  float: right;
+}
+
+.card-header{
+  background:none;
+}
+.card{
+  border:none;
+}
+@keyframes minus {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+[aria-expanded="false"] > .expanded, [aria-expanded="true"] > .collapsed {display: none;}
+  </style>
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -69,49 +124,89 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 ftco-animate">    
-
-
+            
             <h2 class="mb-3">It is a long established fact a reader be distracted</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+            <p>Some text here.<b class="footnote">&sup1<span>An interesting and informative comment appears here, as if by magic.</span></b>
+            </p>
+            <p>Lorem ipsum dolor sit amet adipisicing elit. Reiciendis,doloribus nesciunt! Minima   <b class="footnote">Hover text<span><a href="#">tetetet</a> An interesting and informative comment appears here, as if by magic.</span></b> eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
             <p>
               <img src="images/image_3.jpg" alt="" class="img-fluid">
             </p>
             <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>
             <h2 class="mb-3 mt-5">#2. Creative WordPress Themes</h2>
-            <video controls autoplay class="img-fluid">
-              <source src="images/The Perfect Work-flow with Git, GitHub, and SSH.mp4" type="">
+            <video controls autoplay class="embed-responsive embed-responsive-16by9">
+              <source  class="embed-responsive-item" src="images/nature.mp4" type="">
             </video>
             <p>Temporibus ad error suscipit exercitationem hic molestiae totam obcaecati rerum, eius aut, in. Exercitationem atque quidem tempora maiores ex architecto voluptatum aut officia doloremque. Error dolore voluptas, omnis molestias odio dignissimos culpa ex earum nisi consequatur quos odit quasi repellat qui officiis reiciendis incidunt hic non? Debitis commodi aut, adipisci.</p>
-            <p>
-              <img src="images/image_3.jpg" alt="" class="img-fluid">
-            </p>
-            <iframe width="700" height="450" src="https://www.youtube.com/embed/pMvjObEhN8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        
+            <p>Responsive  UTube Video</p>
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/pMvjObEhN8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <p> Dawa Quisquam esse aliquam fuga distinctio, quidem delectus veritatis reiciendis. Nihil explicabo quod, est eos ipsum. Unde aut non tenetur tempore, nisi culpa voluptate maiores officiis quis vel ab consectetur suscipit veritatis nulla quos quia aspernatur perferendis, libero sint. Error, velit, porro. Deserunt minus, quibusdam iste enim veniam, modi rem maiores.</p>
             <p>Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur, ipsa vel nisi in dolorum consequatur, veritatis porro explicabo soluta commodi libero voluptatem similique id quidem? Blanditiis voluptates aperiam non magni. Reprehenderit nobis odit inventore, quia laboriosam harum excepturi ea.</p>
             <p>Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
             <p>Voluptas dolores dignissimos dolorum temporibus, autem aliquam ducimus at officia adipisci quasi nemo a perspiciatis provident magni laboriosam repudiandae iure iusto commodi debitis est blanditiis alias laborum sint dolore. Dolores, iure, reprehenderit. Error provident, pariatur cupiditate soluta doloremque aut ratione. Harum voluptates mollitia illo minus praesentium, rerum ipsa debitis, inventore?</p>
-            <p data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on top">Tooltip </p>
+            
+            <h3 data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on top">Tooltip </h3>
 
 <!-- Tabs navs -->
-<ul class="nav nav-tabs" id="myTab">
-	<li class="nav-item">
-		<a href="#home" class="nav-link" data-toggle="tab"> Home</a>
-	</li>
-	<li class="nav-item">
-		<a href="#about" class="nav-link" data-toggle="tab"> about</a>
-	</li>
-</ul>
-<div class="tab-content py-3" id="myTabContent">
-	<div class="tab-pane fade" id="home">
-		<p>home Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo natus incidunt cum inventore doloremque earum corporis et est reprehenderit a ut voluptatum tempore excepturi tenetur quasi labore molestiae, itaque?</p>
-	</div>
-	<div class="tab-pane fade" id="about">
-		<p>About Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo natus incidunt cum inventore doloremque earum corporis et est reprehenderit a ut voluptatum tempore excepturi tenetur quasi labore molestiae, itaque?</p>
-	</div>
-</div>
+            <ul class="nav nav-tabs" id="myTab">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-toggle="tab"> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-toggle="tab"> about</a>
+                </li>
+            </ul>
+            <div class="tab-content py-3" id="myTabContent">
+                <div class="tab-pane fade show active" id="home">
+                    <p>home Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo natus incidunt cum inventore doloremque earum corporis et est reprehenderit a ut voluptatum tempore excepturi tenetur quasi labore molestiae, itaque?</p>
+                </div>
+                <div class="tab-pane fade" id="about">
+                    <p>About Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo natus incidunt cum inventore doloremque earum corporis et est reprehenderit a ut voluptatum tempore excepturi tenetur quasi labore molestiae, itaque?</p>
+                </div>
+            </div>
+
+                  <!-- accordion section-->
+       
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+        <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone">Menu 1</a>
+              </div>
+              <div id="menuone" class="collapse hide">
+                <div class="card-body">
+      Taj Mahal is built on the banks of river Yamuna and is surrounded by a beautiful garden. Mughal Emperor Shah Jahan constructed it for the commemoration of his wife Mumtaz Mahal. The construction was started in 1631 and in 1643, the construction of main building was completed. The construction of the whole complex was completed in 1653. Mumtaz Mahal is buried in Taj Mahal.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+        <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo">Menu 2</a>
+              </div>
+              <div id="menutwo" class="collapse">
+                <div class="card-body">
+      Taj Mahal is built on the banks of river Yamuna and is surrounded by a beautiful garden. Mughal Emperor Shah Jahan constructed it for the commemoration of his wife Mumtaz Mahal. The construction was started in 1631 and in 1643, the construction of main building was completed. The construction of the whole complex was completed in 1653. Mumtaz Mahal is buried in Taj Mahal.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+        <a class="card-link" data-toggle="collapse"  href="#menu3" aria-expanded="false" aria-controls="menu3">Menu 1</a>
+              </div>
+              <div id="menu3" class="collapse">
+                <div class="card-body">
+      Taj Mahal is built on the banks of river Yamuna and is surrounded by a beautiful garden. Mughal Emperor Shah Jahan constructed it for the commemoration of his wife Mumtaz Mahal. The construction was started in 1631 and in 1643, the construction of main building was completed. The construction of the whole complex was completed in 1653. Mumtaz Mahal is buried in Taj Mahal.
+                </div>
+              </div>
+            </div>
+         </div>
+          
 
 <!-- End of Tabs navs -->
+<!--
             <div class="tag-widget post-tag-container mb-5 mt-5">
               <div class="tagcloud">
                 <a href="#" class="tag-cloud-link">Life</a>
@@ -120,10 +215,7 @@
                 <a href="#" class="tag-cloud-link">Travel</a>
               </div>
             </div>
-
-
-
-
+ -->
 
             <div class="pt-5 mt-5">
               <ul class="comment-list">
@@ -164,11 +256,11 @@
               <h3 class="heading-sidebar">This is sticky Sidebar</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
             </div>
-
           </div>
-
         </div>
       </div>
+
+        
     </section> <!-- .section -->
 
 	<section id="section2" class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="1.3">
@@ -182,11 +274,6 @@
         </div>
       </div>
     </section>
-
-
-
-
-
 
 
     <section class="ftco-section" id="blog-section">
@@ -254,7 +341,8 @@
     					<span class="position">Exile to India</span>
     					<p class="mt-4">At a pivotal time in Tibet’s history, the people demonstrated nationalism when they discovered China’s plan to capture the Dalai Lama. On March 10, 1959, Tibet launched a demonstration of 300,000 people at Norbulingka Palace to protect the Dalai Lama.
 						On March 19, the Chinese began to shell the area in hopes of deterring a full-out uprising. Over the course of a few days, the Chinese military had killed more than 86,000 Tibetans. The Dalai Lama fled to India two days earlier. Approximately 1.2 million Tibetans died due to the Chinese rule.</p>
-    				</div>
+          
+          </div>
     			</div>
 
     		</div>
@@ -272,7 +360,7 @@
 						<h2>Lorem ipsum <span> dolor sit amet </span>consectetur </h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem reiciendis quis minima magnam nihil. Tempora sequi neque temporibus, perspiciatis modi accusamus sint pariatur, est, laudantium saepe, omnis libero ullam consequuntur.</p>
 						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Contact</a></p>
+						<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Button</a></p>
 					</div>
 				</div>
 			</div>
@@ -307,6 +395,7 @@
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>blog.tibcert.org</a></li>
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>tibetaction.net</a></li>
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>learn.tibcert.org</a></li>
+                <li><a href="https://colorkit.co/color-palette-generator/1A1C1A-51493c-F3CEA1-f8e0c3-fae9d4/"><span class="icon-long-arrow-right mr-2"></span>Theme Color Palette</a></li>
               </ul>
             </div>
           </div>
@@ -372,8 +461,8 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
 });
    	$(document).ready(function(){
-		  $("p").click(function(){
-		    $(".vcard").toggle();
+		  $("this").click(function(){
+		    $("p").toggle();
 		  });
 	});
    </script>

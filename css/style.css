@@ -8158,9 +8158,9 @@ body {
     width: 100%; }
 
 a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: .2s all ease;
+  -o-transition: .2s all ease;
+  transition: .2s all ease;
   color: #f3cea1; }
   a:hover, a:focus {
     text-decoration: none;
@@ -8297,7 +8297,7 @@ h1, h2, h3, h4, h5,
     color: rgba(255, 255, 255, 0.5) !important;
     cursor: pointer;
     padding-right: 0;
-    text-transform: uppercase;
+    text-transform:lowercase;
     font-size: 16px;
     letter-spacing: .1em; }
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
@@ -8378,7 +8378,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   font-weight: 900;
   font-size: 24px;
-  text-transform: uppercase; }
+ }
 
 .hero h3.vr {
   -webkit-writing-mode: vertical-lr;
