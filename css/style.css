@@ -8161,10 +8161,11 @@ a {
   -webkit-transition: .2s all ease;
   -o-transition: .2s all ease;
   transition: .2s all ease;
-  color: #f3cea1; }
+  color: #51493c; 
+}
   a:hover, a:focus {
     text-decoration: none;
-    color: #f3cea1;
+    color: #F3CEA1;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
