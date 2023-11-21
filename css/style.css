@@ -9764,3 +9764,6 @@ textarea.form-control {
     padding: 15px 0;
     filter: grayscale(100);
 }
+li ol{
+  padding:0px;
+}
