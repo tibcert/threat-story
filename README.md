@@ -2,7 +2,7 @@
 [https://tibcert.org/threat-story](https://tibcert.org/threat-story)
 
  :warning: **Note** 
-This repository is hosted to AWS S3 with use of Github Action
+This repository uses Github Action to automatically synced to AWS S3
 
 In many ways, the Tibetan community has been under constant attack ever since coming into exile in 1959. This report seeks to examine the ways in which attacks and threats have evolved in today’s digital age starting from approximately 2002 and spanning roughly twenty years.
 
