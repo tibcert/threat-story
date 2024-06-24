@@ -9227,9 +9227,13 @@ textarea.form-control {
     font-weight: 900; }
     .heading-section h1.big.big-2 {
       right: 0; }
-  .ftco-section h2 {
+
+
+  .section-title{
     font-size: 40px;
-    font-weight: 700; }
+    font-weight: 700; 
+  }
+
     .heading-section h2 span {
       font-weight: 400; }
     @media (max-width: 767.98px) {
