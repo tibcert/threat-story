@@ -9777,3 +9777,6 @@ textarea.form-control {
 li ol{
   padding:0px;
 }
+.toc-mobile li a,.toc-mobile li,.toc-mobile h4{
+  color:#f3dfc6;
+}
