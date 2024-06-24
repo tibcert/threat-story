@@ -3,7 +3,7 @@
 title: Narrative Report
 ---
 
-<h2 class="mb-4 ftco-animate" id="introduction">INTRODUCTION </h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="introduction">INTRODUCTION </h2>
 
 A young Tibetan woman living in Northern India takes a trip back to her village in Tibet to visit family. For the last two years she has been working for Drewla, a Tibetan NGO that provides ways for Tibetans inside Tibet to connect with the diaspora online. The trip does not go as planned.
 
@@ -20,7 +20,7 @@ Targeted espionage campaigns against the Tibetan movement have been widely docum
 The arduous history of digital espionage against the Tibetan community acts as a canary in the coal mine for global civil society. We provide a warning that harnessing the power of information technology for social movements requires vigilant attention to digital security. The stories shared in this report present the harms of digital threats while also offering a message of empowerment that shows how social movements under repression from authoritarianism can persevere and continue to speak truth to power.
 
 
-<h1 class="big big-2 ftco-animate" id="the-tibet-movement-goes-online">The Tibet Movement Goes Online</h1>
+<h2 class="mb-4 ftco-section ftco-animate" id="the-tibet-movement-goes-online">The Tibet Movement Goes Online</h2>
 
 Dharamshala, a small city in Northern India has been the central hub of the Tibetan diaspora since His Holiness the Dalai Lama made it his residence after escaping from Tibet in 1959.
 
@@ -44,7 +44,7 @@ Dan and his friends, together with the TCRC, helped the TGiE set up an Internet-
 
 On December 18 1996, the website DalaiLama.com was registered.[^4] At that time, monks from the OHHDL were managing the Office’s email, maintaining databases, hosting the website, and managing the content. The OHHDL used email to schedule His Holiness’ meetings with international diplomats and religious leaders around the globe.
 
-![/images/dalailama.jpg](/images/dalailama.jpg)
+![/images/dalailama.jpg](images/dalailama.jpg)
 
 DalaiLama.com webpage from 1999 archived online[^5]
 
@@ -62,8 +62,9 @@ Information technology is a double-edged sword for the Tibetan community. On one
 
 Dan video
 
+
 <video controls  class="embed-responsive embed-responsive-16by9">
-              <source  class="embed-responsive-item" src="/images/dan-final-video.mp4" type="video/mp4" paused>
+              <source  class="embed-responsive-item" src="images/dan-video.mp4" type="video/mp4" paused>
  </video>
 
 
@@ -77,7 +78,7 @@ One of the earliest documented incidents of digital espionage against the commun
 >> -- Jigme Tsering
 
 <video controls  class="embed-responsive embed-responsive-16by9 py-5">
-              <source  class="embed-responsive-item" src="/images/jigme-la.mp4" type="video/mp4" paused>
+              <source  class="embed-responsive-item" src="images/jigme-la.mp4" type="video/mp4" paused>
 </video>
 
 Targeted malware delivered as file attachments to email messages is one of the most common digital espionage tactics experienced by the Tibetan community
@@ -102,20 +103,20 @@ This access can be explained by the popularity of VirusTotal in the Tibetan comm
 
 The malware used in these campaigns often mirrored digital espionage activities originating from China that target governments and the private sector. Therefore, reporting on Tibetan threats gave companies a way to publicly disclose details about these threats without having to disclose any sensitive incidents or customer data. The result is threats to the Tibetan community have received more attention from threat intelligence companies than any other civil society movement. These reports provide useful technical information and serve as evidence of decades of targeted espionage. However, typically these private sector reports were done without involvement of the Tibetan community and rarely provided any notifications or incident response support to targeted individuals and groups.[^10] Therefore, while the reports provided value to companies, the Tibetan community did not receive any direct support.
 
-<h2 class="mb-4 ftco-animate" id="on-the-front-lines">On The Front Lines</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="on-the-front-lines">On The Front Lines</h2>
 
 While incidents of digital espionage against the Tibetan community are well documented in threat intelligence reports, the focus is almost always on the technical aspects alone. These reports have no understanding of the social and political context in which these threats occur. Without this context it is not possible to understand the harm of digital espionage.
 
 Only paying attention to the malware and other technical tricks being used in digital espionage is like investigating a shooting but only analyzing the gun. When gun crime is investigated, the forensic details of the bullet may help connect similar attacks and maybe even trace it to the shooter, but if the damage against the victim and the context in which the attack happened is ignored the nature and impact of the crime cannot be properly assessed. Digital espionage is no different. A full understanding of digital espionage requires a wider and deeper view into the issue. We interviewed members of the Tibet movement who have been targeted by digital espionage to document the history of the threat against the community and show the impact.
 
 
-<h2 class="mb-4 ftco-animate" id="a-movement-under-surveillance">A Movement Under Surveillance</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="a-movement-under-surveillance">A Movement Under Surveillance</h2>
 
 
 The first line of attack in most digital espionage that uses targeted malware is luring targets to perform some kind of action, usually opening a malicious attachment or link. The social engineering tactics used in these intrusion attempts are often highly sophisticated and show a knowledge of the activities and network of the target. This level of sophistication speaks to the effort being put into the espionage campaigns and the amount of information the adversaries already have on their targets. The stories we collected from community members on the frontline of Tibet advocacy share key moments in the history of the movement. This mirroring reflects the persistence of digital threats over decades and shows how closely the adversaries monitor the community.
 
 
-<h2 class="mb-4 ftco-animate" id="surveillance-harassment-and-the-2008-beijing-olympics">Surveillance, Harassment, And the 2008 Beijing Olympics</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="surveillance-harassment-and-the-2008-beijing-olympics">Surveillance, Harassment, And the 2008 Beijing Olympics</h2>
 
 In 2008, Beijing played host to the Summer Olympics. The mega event was a major publicity moment for the government of China and accordingly was also a crucial moment to bring attention to human rights abuses in the country.
 
@@ -139,7 +140,7 @@ Later on during the Olympic Games and with the activist protests taking place fr
 
 >> -- Kate Woznow
 
-<h2 class="mb-4 ftco-animate" id="spying-and-self-immolations-in-tibet">Spying & Self Immolations In Tibet</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="spying-and-self-immolations-in-tibet">Spying & Self Immolations In Tibet</h2>
 
 
 In the aftermath of the 2008 Beijing Olympics, turmoil engulfed Tibet, with China imposing a crackdown on the human rights of Tibetans. Beyond those involved in the 2008 protests, Tibetan writers, singers, and educators became prime targets of repression.[^11] Reports from the International Campaign for Tibet (ICT) revealed that around 600 Tibetans were detained as political prisoners during this period.[^12]
@@ -180,11 +181,11 @@ While tricking the attackers was an empowering moment, overall the experience le
 *"The attack left me reeling, shattering my sense of security and trust in my online interactions. It amplified my feelings of vulnerability and paranoia. Considering the confidential nature of my work, the breach threatened to compromise sensitive information, adding another layer of anxiety to my already demanding role."*
 
  <video controls  class="embed-responsive embed-responsive-16by9">
-                    <source  class="embed-responsive-item" src="images/lhadon-fianl.mp4" type="video/mp4" paused>
+                    <source  class="embed-responsive-item" src="images/lhadon.mp4" type="video/mp4">
   </video>
 
 
-<h2 class="mb-4 ftco-section" id="spying-on-the-tibetan-movement-during-covid">Spying On The Tibetan Movement During Covid</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="spying-on-the-tibetan-movement-during-covid">Spying On The Tibetan Movement During Covid</h2>
 
 Digital espionage campaigns often take advantage of targeted communities when they are the most vulnerable such as periods of emergency. The COVID pandemic provided a perfect environment for digital espionage operators to spread a different type of infection.
 
@@ -197,7 +198,7 @@ A few months later another espionage email campaign started that spoofed the acc
 Another COVID-19 theme based email attack was observed with its sender description displayed as “DIIR INFO Secretary''. Although the content of the supposedly email guideline seemed to be coming from the World Health Organisation (WHO), the interesting fact here is that DIIR is the Department of Information and International Relations (DIIR) which comes under the CTA. However the sender address as mentioned in the mail may be a misspelling of a prominent Tibetan individual who provided reports and first hand information of the self-immolations incidents inside Tibet to the international media. He is a well known and respected member of the Tibetan community who, due to his work in getting information from inside Tibet to journalists, has also developed a significant media presence around him. With the onset of privacy and security implications of the concerned person, we have kept his personal identity confidential.
 
 
-<h2 class="mb-4 ftco-section" id="impersonation-and-trust">Impersonation & Trust</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="impersonation-and-trust">Impersonation & Trust</h2>
 
 Digital espionage against the community often impersonates known people and groups by sending messages and emails that appear to come from trusted sources. Through these impersonations malware can spread through the community and undermine the credibility of Tibetan groups.
 
@@ -213,7 +214,7 @@ Kelsang Dolma, the General Secretary of the TWA recounts the impact the incident
 <br/>
 Responding to the threat, the TWA promptly alerted recipients of the malicious emails to report them and refrain from clicking on any links or attachments. Additionally, TibCERT proactively reached out to organizations that received similar emails, urging them to assess their systems and networks for potential compromise.
 
-<h2 class="mb-4 ftco-animate" id="poisoning-the-well">Poisoning The Well</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="poisoning-the-well">Poisoning The Well</h2>
 
 Targeted malware is not only delivered through emails or messages. It can also spread through the community by infecting trusted websites. Like a village well, websites for Tibetan media and organizations serve as vital resources for the community. If you poison the well, you poison the village. A “watering hole attack” describes this type of action online. Attackers get unauthorized access to websites and infect them with malware. When visitors visit the website they are at risk of their computer being infected by the malware and giving access to the attackers. The modus operandi of these attacks is particularly insidious, as compromised websites automatically download malware onto visitors' devices without their knowledge. This method bypasses the need for attackers to target individuals individually, streamlining the process, and maximizing the impact.
 
@@ -230,11 +231,11 @@ Websites like TibetTimes that publish news on the human rights violations occurr
 
 Tibet Times video:
  <video controls  class="embed-responsive embed-responsive-16by9">
-    <source  class="embed-responsive-item" src="images/lhadon-fianl.mp4" type="video/mp4" paused>
+    <source  class="embed-responsive-item" src="images/lhadon.mp4" type="video/mp4" paused>
  </video>
 
 
-<h2 class="mb-4 ftco-animate" id="attempts-to-silence-the-voice-of-tibet">Attempts To Silence The Voice Of Tibet</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="attempts-to-silence-the-voice-of-tibet">Attempts To Silence The Voice Of Tibet</h2>
 
 
 Targeted digital espionage is not the only threat that Tibetan groups experience. Some digital attacks are aimed at silencing groups through attacks on websites.
@@ -258,12 +259,12 @@ Tenzin Peldon, Chief Editor at VOT, emphasized the resilience of Tibetan media i
 
 Websites served as more than just information hubs; they were vital platforms for cultural preservation, community building, and political advocacy. Threats like DDoS attacks disrupt the flow of information and impede the community's ability to raise awareness about human rights violations in Tibet. Other Tibetan media and civil society groups including Tibet Times, Phayul, and the Tibetan Center for Human Rights and Democracy (TCHRD), also faced similar assaults, highlighting the systematic targeting of Tibetan voices by malicious actors. As Tibetans continue to navigate the digital landscape, safeguarding their online platforms becomes paramount to upholding their right to free expression and preserving their cultural heritage.
 
-<h2 class="mb-4 ftco-animate" id="the-spy-in-your-pocket">The Spy In Your Pocket</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="the-spy-in-your-pocket">The Spy In Your Pocket</h2>
 
 In the early 2010s, the rise of smartphones introduced new opportunities for connectivity for the Tibetan community. The ubiquity of mobile technology connected Tibetans in Tibet and the diaspora in ways that had not been experienced before. Reports from inside became available as events happened. Families separated by exile went from periodic updates to daily communications. But as this new connectivity flourished espionage threats went mobile as well.
 
 
-<h1 class="mb-4 ftco-section" id="mobile-threats-emerge">Mobile Threats Emerge</h1>
+<h2 class="mb-4 ftco-section ftco-animate" id="mobile-threats-emerge">Mobile Threats Emerge</h2>
 
 In 2011, WeChat, a mobile messaging application, launched and has become the most popular communications platform in China and quickly spread to Tibetan populations. The popularity of WeChat became a concern due to the app being under the control of a Chinese company and therefore subject to information controls dictated by the Chinese government. Reports of censorship and suspected surveillance on WeChat began to circulate in the community
 
@@ -288,7 +289,7 @@ This chain of events suggests that the email of the Tibetan Parliamentarian who 
 This attack was one of the first examples of mobile malware we observed in the community and showed how digital threats against the community adapt. As Tibetans went mobile, so did the threats.
 
 
-<h2 class="mb-4 ftco-animate" id="one-click-away-from-compromise">One Click Away From Compromise</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="one-click-away-from-compromise">One Click Away From Compromise</h2>
 
 The sophistication of social engineering used to lure targets to install mobile malware and the technical sophistication of the malware itself has significantly escalated in recent years.
 
@@ -311,7 +312,7 @@ Amnesty International does not employ anyone named Jason Wu. The message was ver
 In total, we found 17 high profile members of the Tibetan community who were targeted by the same campaign including members of the Offices of His Holiness the Dalai Lama, the Central Tibet Administration, Tibetan Parliamentarians and Tibetan human rights groups. This campaign was highly organized and targeted with multiple fake personas used. In every case the fake persona engaged the target in a conversation and once an exchange had started would send a malicious link. All it would take is one click of the link for the target’s phone to be turned into a spy in their pocket.
 
 
-<h2 class="mb-4 ftco-animate" id="the-community-responds">The Community Responds</h2>
+<h2 class="mb-4 ftco-section ftco-animate" id="the-community-responds">The Community Responds</h2>
 
 From the moment the Tibetan community came online we have faced persistent digital espionage. Over decades of being targeted, the community has grown capacities and resilience for defending against digital threats.
 
@@ -341,7 +342,7 @@ The goal of sharing the first hand experiences of Tibetans targeted by digital e
 
 The Tibetan community must continue to work together to maintain resilience to digital espionage and the long reach of China. We also must stand in solidarity with civil society groups around the world that are facing transnational repression from authoritarian regimes. Together we can empower each other and form a more secure, free, and open Internet that enables movements to create positive social change.
 
-## GENERAL COMMENTS
+### GENERAL COMMENTS
 
 There are great stories here, but they should be reorganized so together they tell a wider compelling narrative. The key is to show the community has been targeted for decades and this persistent targeting is a major violation of human rights including freedom of speech, assembly, privacy, etc.
 

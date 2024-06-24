@@ -9092,7 +9092,11 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 2em 0;
+      padding-bottom: 10px; 
+    } 
+
+    }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
