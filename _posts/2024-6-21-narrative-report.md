@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Narrative Report
 ---
 
@@ -281,7 +281,7 @@ This chain of events suggests that the email of the Tibetan Parliamentarian who 
 >> -- Lobsang Gyatso Sither
 
  <video controls  class="embed-responsive embed-responsive-16by9 py-5">
-    <source  class="embed-responsive-item " src="images/.mp4 " type="video/mp4" paused>
+    <source  class="embed-responsive-item " src="images/paldon-vot.mp4 " type="video/mp4" paused>
  </video>
 
 This attack was one of the first examples of mobile malware we observed in the community and showed how digital threats against the community adapt. As Tibetans went mobile, so did the threats.
