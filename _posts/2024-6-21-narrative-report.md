@@ -39,7 +39,8 @@ The community truly came online in the mid-1990s thanks to efforts from Dan Haig
 >Our goal was to usher the Tibetan exile community and the government-in-exile into the Internet age."
 
 >> --Dan Haig 
-
+  
+  
 Dan and his friends, together with the TCRC, helped the TGiE set up an Internet-connected Local Area Network between all seven ministries, the Kashag, Library of Tibetan Works and Archives, and provided several other offices with dialup connectivity to the Private Office of His Holiness the Dalai Lama (OHHDL), the Norbulingka Institute and other key community organizations.[^3]
 
 On December 18 1996, the website DalaiLama.com was registered.[^4] At that time, monks from the OHHDL were managing the Office’s email, maintaining databases, hosting the website, and managing the content. The OHHDL used email to schedule His Holiness’ meetings with international diplomats and religious leaders around the globe.
